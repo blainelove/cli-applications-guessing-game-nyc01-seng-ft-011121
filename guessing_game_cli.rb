@@ -1,5 +1,5 @@
 # Code your solution here!
-
+require 'pry'
 def run_guessing_game
   # number = rand(6) + 1
   number = 5
