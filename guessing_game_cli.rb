@@ -1,8 +1,7 @@
 # Code your solution here!
 
 def run_guessing_game
-  # number = rand(6) + 1
-  number = 5
+  number = rand(6) + 1
   numberStr = number.to_s
   user_input = gets.chomp
   if user_input == numberStr
